@@ -1,0 +1,144 @@
+body{
+  height:100vh;
+  width:100vw;
+  background-image: url('gettyimages-1483133149-612x612.jpg');
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0px;
+}
+
+#box{
+  zoom:1.4;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.8em;
+  flex-direction: column;
+  height:17em;
+  width:30em;
+  background-color: rgba(255, 255, 255,0.7);
+  border-color: white;
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 4%;
+  position: relative;
+  line-height: 2em;
+}
+
+#l1{
+  background-color: white;
+  height:34.5%;
+  margin-bottom: 4.54%;
+  border-radius: 0.8em;
+  padding: 0.8em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:1.1em;
+  font-weight: 600;
+}
+
+#swap{
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  height:2.5em;
+  width:5em;
+  background-color: rgb(14, 88, 246);
+  color:white;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 10px;
+  border-color: white;
+}
+
+
+#l2{
+  background-color: white;
+  height:34.5%;
+  margin-bottom: 6.18%;
+  border-radius: 0.8em;
+  padding: 0.8em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:1.1em;
+  font-weight: 600;
+}
+
+#l3{
+  font-weight: 700;
+  background-color: rgb(14, 88, 246);
+  height:20%;
+  border-radius: 0.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 1.6em;
+}
+
+#ct{
+  text-align: right;
+}
+
+#tarea{
+  width:8em;
+}
+
+@media (max-width: 829px) {
+  #box{
+    zoom:1.3;
+  }
+}
+
+@media (max-width: 760px) {
+  #box{
+    zoom:1.2;
+  }
+}
+
+@media (max-width: 680px) {
+  #box{
+    zoom:1;
+  }
+}
+
+@media (max-width: 585px) {
+  #box{
+    zoom:0.9;
+  }
+}
+
+@media (max-width: 520px) {
+  #box{
+    transform: scale(1,1.2);
+    zoom:0.8;
+  }
+}
+
+@media (max-width: 450px) {
+  #box{
+    transform: scale(1,1.25);
+    zoom:0.7;
+  }
+}
+
+@media (max-width: 415px) {
+  #box{
+    zoom:0.6;
+  }
+}
+
+@media (max-width: 380px) {
+  #box{
+    zoom:0.55;
+  }
+}
