@@ -14,7 +14,7 @@
 - **Fetch API**: Fetching real-time currency exchange rates
 
 ## Live Preview
-- **Link** :
+- **Link** : https://currrencyconvertorbypj.netlify.app/
 
 ## Images
 ![Image](/img1.png)
